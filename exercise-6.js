@@ -14,6 +14,7 @@ function digitPerkalianMinimum(angka) {
         if (angka % i === 0) {
             temp.push([i, angka / i])
         }
+        // console.log(temp)
     }
 
     var result = 0
@@ -29,8 +30,8 @@ function digitPerkalianMinimum(angka) {
 }
 
 // TEST CASES
-// console.log(digitPerkalianMinimum(24)); // 2
-// console.log(digitPerkalianMinimum(90)); // 3
-// console.log(digitPerkalianMinimum(20)); // 2
-// console.log(digitPerkalianMinimum(179)); // 4
+console.log(digitPerkalianMinimum(24)); // 2
+console.log(digitPerkalianMinimum(90)); // 3
+console.log(digitPerkalianMinimum(20)); // 2
+console.log(digitPerkalianMinimum(179)); // 4
 console.log(digitPerkalianMinimum(1)); // 2
