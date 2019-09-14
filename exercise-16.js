@@ -17,7 +17,6 @@ function graduates(students) {
             if (students[j].class === Object.keys(result)[i]) {
                 // console.log(Object.keys(result)[i])
                 if (students[j].score >= 75) {
-
                     obj.name = students[j].name
                     obj.score = students[j].score
                     result[students[j].class].push(obj)
